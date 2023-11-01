@@ -30,12 +30,15 @@ in case you accidentally overwrite or delete saves in game or have problems with
 
 Current version of the mod doesn't restart activities automatically and requires you 
 to run [Cyber Engine Tweaks](https://github.com/yamashi/CyberEngineTweaks) console commands.
-Some commands require activity names and other parameters which you can all find in this 
+
+Some commands require special names which you can all find in this 
 [list of activities](https://github.com/psiberx/cp2077-rewind/wiki/Activities).
 
 **`NightCityRewind.Activate(name)`**
 
-Starts one named activity. For example, `NightCityRewind.Activate("ma_hey_spr_11")`.
+Starts one named activity. 
+
+For example, `NightCityRewind.Activate("ma_hey_spr_11")`.
 
 **`NightCityRewind.ActivateAll()`**
 
