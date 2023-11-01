@@ -1,0 +1,9 @@
+[[UNRESOLVED_TYPE]]
+id = "CODEWARE_10600"
+span_starts_with = "OpenWorldSystem"
+message = "Install Codeware 1.6.0 or higher"
+
+[[UNRESOLVED_METHOD]]
+id = "CODEWARE_10600"
+span_starts_with = "GameInstance.GetOpenWorldSystem"
+message = "Install Codeware 1.6.0 or higher"
