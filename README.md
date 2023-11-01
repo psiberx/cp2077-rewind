@@ -42,7 +42,7 @@ For example, `NightCityRewind.Activate("ma_hey_spr_11")`.
 
 **`NightCityRewind.ActivateAll()`**
 
-Starts all available activies.
+Starts all available activities.
 
 Optionally, you can set additional criteria for this command:
 
