@@ -1,7 +1,7 @@
 # Night City Rewind
 
 Night City Rewind allows you to replay minor activities, mainly focusing on combat encounters.
-Right now you can infinitely replay [NCPD scanner missions](https://github.com/psiberx/cp2077-rewind/wiki/Activities).
+Right now you can indefinitely replay [NCPD scanner missions](https://github.com/psiberx/cp2077-rewind/wiki/Activities).
 
 The mod is still in development.
 
