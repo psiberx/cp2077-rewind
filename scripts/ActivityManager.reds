@@ -25,7 +25,10 @@ public class ActivityManager extends ScriptableSystem {
             case OpenWorldActivityResult.NotFound:
                 ModLog(n"NightCityRewind", "Activity not found");
                 break;
-            case OpenWorldActivityResult.NotFinished:
+            case OpenWorldActivityResult.Undiscovered:
+                ModLog(n"NightCityRewind", "Cannot restart activity because it's not discovered yet");
+                break;
+            case OpenWorldActivityResult.Unfinished:
                 ModLog(n"NightCityRewind", "Cannot restart activity because it's not finished yet");
                 break;
             case OpenWorldActivityResult.StillSpawned:
@@ -39,7 +42,8 @@ public class ActivityManager extends ScriptableSystem {
             new OpenWorldActivityRequest(
                 request.GetType(),
                 request.GetDistricts(),
-                request.GetCooldown()
+                request.GetCooldown(),
+                false
             )
         );
 
